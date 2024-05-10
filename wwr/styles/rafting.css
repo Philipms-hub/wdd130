@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 960px;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;    
+}
+:root{
+    --primary-color: #46351D;
+    --secondary-color: #646F4B;
+    --accent1-color: #BFD2BF;
+    --accent2-color: #839D9A;
+
+    --heading-font:'Raleway', serif;
+    --paragraph-font:'Montserrat', serif;
+
+    --nav-background-color:var(--primary-color);
+    --nav-link-color:var(--accent2-color);
+    --nav-hover-link-color:var(--secondary-color);
+    --nav-hover-background-color:var(--accent1-color);
+}
+
+/* div{
+    position: relative;
+} */
+
+
+h1{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    padding: 2rem;
+}
+
+article{
+    position: absolute;
+    
+}
+
+article img{
+    float: right;
+}
+
+
+h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--primary-color);
+    width: auto;
+    height: 150px;
+}
+
+header img{
+    width: 9rem;
+    padding: 1rem;
+    float: left;
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+    
+}
+
+p{
+    padding: 25px;
+}
+
+nav{
+    padding: 16px;
+    font-size: 1.2rem;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 90px;
+    
+
+}
+
+article img{
+    width: 1rem;
+    float: right;
+
+}
+
+nav a{
+    padding: 10px;
+    color: var(--accent1-color)
+}
+
+footer p{
+    text-align: center;
+}
+
+/* Class */
+
+.sociallinks img{
+    width: 2rem;
+    padding: 1rem;
+    float: right;
+    position: relative;
+    left: 130px;
+    bottom: 130px;
+    
+}
+
+.hero {
+    position: relative;
+    width: 100%; 
+    max-width: 960px; 
+    margin:  auto; 
+}
+
+.hero img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-family: 'Raleway', sans-serif;
+    color: #fff; 
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1; 
+    margin: 0; 
+    padding: 0.5rem 1rem; 
+}
+
+
+.hero article {
+    position: absolute;
+    bottom: 40%;
+    left: 0; 
+    width: 100%; 
+    padding: 0px; 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.hero article img {
+    float: right; 
+    margin-left: 20px;
+    width: 20%;
+}
+
+.inside{
+    float: right; 
+    margin-left: 20px;
+    width: 20%;
+
+}
