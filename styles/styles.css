@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header, footer{
+header, footer, .grid{
     max-width: 840px;
     margin: 0 auto;
 }
@@ -24,7 +24,7 @@ nav {
 
 nav a {
     display: block;
-    padding:  0.5rem;
+    padding:  0.5 rem;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
@@ -50,11 +50,6 @@ main img{
     
 }
 
-aside img{
-    width: 300px;
-    height: 300px;
-}
-
 p{
     padding: 5px;
 
@@ -76,14 +71,14 @@ aside{
     /* text-align: center; */
 }
 aside img{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: auto;
 }
 
 aside h2{
     position: absolute;
-    top: 60px;
-    left: 150px;
+    top: 47px;
+    left: 100px;
     color: white;
 }
 footer{
@@ -100,20 +95,8 @@ footer{
     padding: 1rem;
     background-color: lightgray;
     color: black;
-    width: 400px;
-    height: 500px;
-    text-align: center;
-    
-}
-
-.temples-box{
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding-left: 1rem;
-    background-color: lightgray;
-    color: black;
     width: 300px;
-
+    text-align: center;
     
 }
 
