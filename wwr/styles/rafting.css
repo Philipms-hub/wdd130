@@ -180,10 +180,9 @@ h2.grid-history{
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Five columns with equal width */
-    grid-template-rows: 20% 1fr; /* One row for h2 and another for images */
-    gap: 10px; /* Optional spacing between grid items */
-
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: 20% 1fr; 
+    gap: 10px; 
   }
 
   .grid-item{
@@ -193,12 +192,12 @@ h2.grid-history{
   }
 
   .grid-item figcaption {
-    text-align: center; /* Captions centered below images */
-    padding: 5px; /* Optional padding for captions */
+    text-align: center; 
+    padding: 5px; 
   }
 
   .grid-item img {
-    width: 100%; /* Images fill the figure element width (redundant with .grid-item rule, but can be left for clarity) */
+    width: 100%;
   }
 
   .grid-footer{
