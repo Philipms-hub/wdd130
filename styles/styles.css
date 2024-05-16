@@ -4,33 +4,55 @@
     box-sizing: border-box;
 }
 
+header, footer{
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+
 body{
     font-size: 16px;
 }
 
 nav {
-    background-color: steelblue;
-    padding: 5px;
+    display: flex;
+    padding: 1rem;
+    background-color: rgb(41, 154, 35);
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
+    display: block;
+    padding:  0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
     color: white;
-    display: inline;
-    padding: 5px;
+
 }
 
 h1 {
-    color: steelblue;
+    color: rgb(41, 154, 35);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-bottom: solid;
+    text-align: center;
+    
 }
 
 main img{
     width: 200px;
-    height: auto;
+    height: 200px;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
     
+}
+
+aside img{
+    width: 300px;
+    height: 300px;
 }
 
 p{
@@ -54,15 +76,15 @@ aside{
     /* text-align: center; */
 }
 aside img{
-    width: 200px;
-    height: auto;
+    width: 300px;
+    height: 300px;
 }
 
 aside h2{
     position: absolute;
-    top: 47px;
+    top: 60px;
     left: 150px;
-    color: black;
+    color: white;
 }
 footer{
     margin-top: 15px;
@@ -78,8 +100,20 @@ footer{
     padding: 1rem;
     background-color: lightgray;
     color: black;
-    width: 300px;
+    width: 400px;
+    height: 500px;
     text-align: center;
+    
+}
+
+.temples-box{
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 1rem;
+    background-color: lightgray;
+    color: black;
+    width: 300px;
+
     
 }
 
@@ -91,4 +125,21 @@ footer{
     background-color: lightgray;
     color: black;
     width: 300px;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main{
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside{
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
