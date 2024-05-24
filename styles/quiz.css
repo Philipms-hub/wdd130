@@ -1,0 +1,67 @@
+/* Basic styles for the body and form */
+body {
+    font-family: sans-serif;
+    margin: 2rem;
+  }
+
+h1{
+  text-align: center;
+  color: navy;
+}
+  /* Styles for labels and inputs */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding in width */
+    margin-bottom: 15px;
+  }
+  
+  textarea {
+    resize: vertical; /* Allow users to resize textarea */
+  }
+  
+  /* Styles for the select element */
+  form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0,  0, 0.2);
+    padding: 1rem;
+    width: auto;
+}
+  
+  /* Styles for the submit button */
+  button{
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
+  
