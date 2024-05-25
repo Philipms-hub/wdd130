@@ -376,7 +376,7 @@ form button:hover {
 }
 
 
-.employee-profiles {
+/* .employee-profiles {
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -385,7 +385,7 @@ form button:hover {
     display: flex;
     justify-content: center;
     gap: 2rem;
-}
+} */
 
 .employee-profiles .profile {
     background-color: #fff;
