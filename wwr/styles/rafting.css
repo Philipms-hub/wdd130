@@ -43,11 +43,6 @@ article{
     
 }
 
-article img{
-    float: right;
-}
-
-
 h2,h3,h4,h5,h6{
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -211,9 +206,9 @@ h2.grid-history{
 }
 
 section.employee-profiles {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 10px; 
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
     margin-bottom: 2rem;
 }
 section.employee-profiles article {
