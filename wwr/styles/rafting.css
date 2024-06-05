@@ -397,3 +397,104 @@ form button:hover {
     object-fit: cover;
     margin-bottom: 0.5rem;
 }
+
+.hero {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.adventure-gallery {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.adventure-gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.column {
+    text-align: center;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.image-title {
+    font-weight: bold;
+}
+
+.cta {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.cta a {
+    text-decoration: none; 
+    color: green; 
+    transition: color 0.3s ease;
+
+}
+
+.cta a:hover {
+    color: #000; 
+}
+
+/* grid-index */
+.grid-index {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.grid-item {
+    flex: 1;
+    max-width: calc(50% - 10px); 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.grid-item h3 {
+    font-size: 1.2rem;
+    color: #333; 
+}
+
+.grid-item p {
+    color: #666; 
+    margin-bottom: 10px;
+}
+
